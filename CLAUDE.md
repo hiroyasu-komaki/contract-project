@@ -55,4 +55,5 @@ src/
 
 | コマンド | 動作 |
 |---------|------|
-| `/contract-summarize <ファイル名>` | 契約書（doc/docx）を読み込み要約 → mid/contract_*.md を生成 → 法務レビューを生成 → output/legalreview_*.md |
+| `/contract-summarize` | input/ の契約書（doc/docx）をファイル選択して要約 → mid/contract_*.md を生成 → 法務レビューを生成 → output/legalreview_*.md |
+| `/it-contract-classifier` | input/ の契約書（doc/docx）をファイル選択してIT契約類型マスターで分類 → output/classify_report_*.md |
