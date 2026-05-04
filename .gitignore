@@ -10,5 +10,5 @@ input/**
 !input/**/.gitkeep
 mid/**
 !mid/**/.gitkeep
-output/**
-!output/**/.gitkeep
+# output/**
+# !output/**/.gitkeep
