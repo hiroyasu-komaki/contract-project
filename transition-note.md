@@ -94,8 +94,8 @@ Copilot Pro ライセンスの活用を最大化するなら、**A + C の組み
 sequenceDiagram
     actor User
     participant Skill as Claude Code<br>(Skill)
-    participant Python as Python<br>(src/main.py)
     participant FS as ファイルシステム
+    participant Python as Python<br>(src/main.py)
     participant Claude as Claude AI<br>(推論エンジン)
 
     User->>Skill: /contract-summarize 実行
@@ -151,8 +151,8 @@ sequenceDiagram
 sequenceDiagram
     actor User
     participant Skill as Claude Code<br>(Skill)
-    participant Python as Python<br>(src/main.py)
     participant FS as ファイルシステム
+    participant Python as Python<br>(src/main.py)
     participant Claude as Claude AI<br>(推論エンジン)
 
     User->>Skill: /it-contract-classifier 実行
